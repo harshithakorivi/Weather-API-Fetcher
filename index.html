@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather API Fetcher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌤 Weather API Fetcher</h1>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter City, Village, District or Mandal">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <button class="location-btn" onclick="getLocationWeather()">
+        📍 Use My Location
+    </button>
+
+    <div class="weather-card" id="weatherCard">
+
+        <h2 id="cityName"></h2>
+
+        <img id="weatherIcon" src="" alt="">
+
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="windSpeed"></p>
+        <p id="condition"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
