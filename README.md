@@ -5,7 +5,7 @@ A weather application that fetches real-time weather data using OpenWeatherMap A
 
 ## Features
 
-- Search weather by city, village, district or mandal
+- Search weather by city,district
 - Current location weather
 - Temperature display
 - Humidity display
